@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+    //   "module": "CommonJS",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      
+      "resolveJsonModule": true
+    },
+    "include": ["src/**/*", "../frontend/tRPC-test/src/trpc.ts"]
+  }
+  
+
+// {
+//     "compilerOptions": {
+//       "module": "ESNext",               // Ensure ES Modules are used
+//       "moduleResolution": "node",       // Use Node's module resolution
+//       "esModuleInterop": true,          // Allows compatibility between CommonJS and ES Modules
+//       "allowSyntheticDefaultImports": true, // Allows default imports from non-ESM modules
+//       "target": "ESNext",               // Ensure modern JavaScript features are enabled
+//       "skipLibCheck": true,             // To avoid errors in third-party libraries
+//       "forceConsistentCasingInFileNames": true
+//     },
+//     "include": ["src/**/*", "../frontend/tRPC-test/src/trpc.ts"]
+
+//   }
